@@ -120,7 +120,7 @@ export default function ChatWindow() {
     setInput("")
 
     try {
-      const res = await fetch("https://mcp-ai-agent-t4ec.onrender.com/chat", {
+      const res = await fetch("https://tgh-ai.onrender.com/chat", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ message: sentInput })
