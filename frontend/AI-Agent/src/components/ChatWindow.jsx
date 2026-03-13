@@ -8,6 +8,16 @@ function renderResponse(data) {
     return <div className="error">❌ {data.error}</div>
   }
 
+   if (data.id) {
+    return (
+      <div>
+        <h3>✅ Account Created Successfully</h3>
+        {data.Name && <p><b>Name:</b> {data.Name}</p>}
+        <p><b>Salesforce ID:</b> {data.id}</p>
+      </div>
+    )
+  }
+
   if (data.accounts) {
     const accounts = data.accounts
     return (

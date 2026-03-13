@@ -49,6 +49,18 @@ User: List all accounts
  "fields":{}
 }
 
+User: Generate order summary for Gamma Systems
+{
+ "intent":"generate_order_summary",
+ "fields":{"Name":"Gamma Systems"}
+}
+
+User: Generate order summary
+{
+ "intent":"generate_order_summary",
+ "fields":{}
+}
+
 Return ONLY JSON.
 
 User message:

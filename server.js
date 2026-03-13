@@ -15,6 +15,8 @@ app.post("/chat", async (req, res) => {
 
   const intent = await detectIntent(message)
 
+  console.log(intent.intent)
+
   if (intent.intent === "get_account_details") {
 
   const accountName = intent.fields.Name
