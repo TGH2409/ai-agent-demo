@@ -322,3 +322,16 @@
 .error {
   color: #e53e3e;
 }
+.micBtn {
+  margin-left: 8px;
+  padding: 10px;
+  border-radius: 50%;
+  border: none;
+  background: #6c63ff;
+  color: white;
+  cursor: pointer;
+}
+
+.micBtn:hover {
+  background: #574fd6;
+}
